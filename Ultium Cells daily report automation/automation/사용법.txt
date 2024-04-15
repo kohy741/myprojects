@@ -1,0 +1,7 @@
+
+
+1.일단 카톡 이슈방으로 가서 chat export를 해서 그 파일을 automation폴더로 복사한다
+2.그 텍스트파일을 열어서 해당 주의 첫번째 날짜의 위엣부분을 다 삭제 후 저장한다
+3.dailyreport.py을 실행한다
+4.터미널에 The process cannot access the file because it is being used by another process. 이렇게 뜨면 바로 output엑셀파일을 열면되고
+  그렇지않으면 error텍스트파일을열어서 어떤 단락이 문제가 잇는지 파악해서 카톡텍스트파일을 수정하고 다시 dailyreport.py을 실행하고를 반복한다

@@ -1,0 +1,1 @@
+put phplogin file into htdocs file  after download xampp
